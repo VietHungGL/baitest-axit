@@ -1,0 +1,153 @@
+@import './variables.scss';
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  
+}
+
+/* Tablet & Mobile  */
+@media (max-width: 1023px ) {
+   
+}
+
+
+/* Mobile */
+@media (max-width: 740px) {
+    .form-axit {
+        padding: 20px;
+    }
+    .mr-t-15 {
+        margin-top: 0;
+    }
+    .mr-t-35 {
+        margin-top: 10px !important;
+    }
+    #header {
+        /* height: auto; */
+        width: 100%;
+        padding: 0;
+  
+    }
+    #header .nav {
+        margin: 50px 0px;
+        margin-left: 60px;
+        float: none;
+        text-align: center; 
+    }
+  
+    .mobile-menu-bnt {
+        position: fixed;
+        top: 0;
+        display: inline-block;
+        color: $colorWh;
+        font-size: 20px;
+        margin: 15px;
+        right: 0;
+        padding-right: 20px;
+    }
+    #header .nav li {
+        display: block;
+    }
+    #header .nav li a {
+        display: block;
+    }
+
+    .logo {
+        width: 30%;
+        padding-left: 20px;
+    }
+
+    .logo-lider{
+        height: 30px;
+    }
+    .slider {
+        height: auto;
+    }
+    .slider .line {
+        margin: 15px 0; 
+    }
+    .bnt-downd {
+        margin-top: 0px;
+    }
+    .fea-left {
+        width: 100%;
+
+    }
+    .fea-right {
+        margin-top: 10px;
+        float: none;
+        width: 100%;
+    }
+    /*-social-*/
+    .social {
+        width: 100%;
+        height: auto;
+    }
+    .tab-link {
+        display: flex;
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .tab-social .tab-list {
+        width: 100%;
+        // margin: -5px;
+        display: contents;
+    }
+
+    .tab-social {
+        display: inline;
+        width: 30%;
+        height: auto;
+    }
+    .tab-link li {
+        margin: 0 5px;
+    }
+    .title-sol {
+        width: 100%;
+        
+    }
+    .title-sol p {
+        text-align: justify;
+        padding-bottom: 15px;
+        padding-top: 5px;
+        width: 100%;
+        padding-right: 15px;
+    }
+    .soci-img {
+        
+        width: 90%;
+       
+    }
+    /*sub-list */
+    .sub-list .sub-img {
+        width: 100%;
+
+    }
+    .sub-list .sub-section {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+
+    }
+    /*standa */
+    .standa .sd-section {
+        width: 100%;
+    }
+    .standa .standa-img {
+        width: 100%;
+    }
+    /**/
+    #contact .bnt-axit {
+        width: 40%;
+    }
+    .awe-list .awe-child {
+        width: 100%;
+    }
+}
